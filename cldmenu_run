@@ -1,2 +1,2 @@
 #!/bin/sh
-cldmenu_path | cldmenu "$@" | ${SHELL:-"/bin/sh"} &
+cldmenu_path | cldmenu "$@" -p "Run:" | ${SHELL:-"/bin/sh"} &
